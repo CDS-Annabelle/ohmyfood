@@ -4,11 +4,11 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;   
+    width: 100%;  
+    margin: 0; 
     &__logo {
-        font-size: 7rem;
-        color: $colour-secondary;
-        margin-left: 10rem;
-        @include heading-shadow($colour-white);
+        font-size: 1.875rem;
+        color: #000;
+        text-align: center;
     }
 }
