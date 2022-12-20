@@ -1,0 +1,30 @@
+.city {
+    background: #eaeaea;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__textcity{
+        padding-left: 10px;
+    }
+}
+
+.explore {
+    background: $colour-container;
+    text-align: center;
+    padding: 20px;
+    &__text {
+        color: #353535;
+        padding-top: 15px;
+    }
+    &__btn {
+        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        margin-top: 15px;
+    }
+}
+
+.explore a{
+    color: #fff;
+}
