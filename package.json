@@ -1,0 +1,23 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "create website ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDS-Annabelle/ohmyfood.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CDS-Annabelle/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/CDS-Annabelle/ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
