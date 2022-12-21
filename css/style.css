@@ -64,33 +64,44 @@ button {
   text-align: center;
 }
 
-.nav {
-  padding-right: 6rem;
-  flex: 2 1 auto;
-  text-align: left;
-}
-.nav__link {
-  display: inline;
-  font-size: 3rem;
-  padding-left: 1.5rem;
-}
-.nav__link a {
-  text-decoration: none;
-  color: #99E2D0;
-}
-.nav__link--active {
-  color: #FF79DA;
-}
-.nav__link--active:hover {
-  cursor: default;
-  color: #FF79DA;
-}
-.nav__link a:hover {
-  color: #fff;
+
+ul {
+  list-style-type: none;
 }
 
 .container {
   background: #f7f7f7;
+}
+
+.form {
+  width: 100%;
+}
+.form __input {
+  width: 100%;
+  border: none;
+}
+
+.footer {
+  background: #353535;
+  padding: 20px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.footer__logo {
+  font-size: 1.125rem;
+  font-family: "Shrikhand", sans-serif;
+  margin-bottom: 10px;
+}
+.footer__icon {
+  padding-right: 15px;
+  width: 30px;
+}
+.footer__link {
+  font-size: 1rem;
+}
+.footer__link__text {
+  color: #fff;
 }
 
 .city {
