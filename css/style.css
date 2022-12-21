@@ -58,29 +58,12 @@ button {
   text-align: center;
 }
 
-.nav {
-  padding-right: 6rem;
-  flex: 2 1 auto;
-  text-align: right;
+nav {
+  list-style-type: none;
 }
-.nav__link {
-  display: inline;
-  font-size: 3rem;
-  padding-left: 1.5rem;
-}
-.nav__link a {
-  text-decoration: none;
-  color: #99E2D0;
-}
-.nav__link--active {
-  color: #FF79DA;
-}
-.nav__link--active:hover {
-  cursor: default;
-  color: #FF79DA;
-}
-.nav__link a:hover {
-  color: #fff;
+
+ul {
+  list-style-type: none;
 }
 
 .container {
@@ -93,6 +76,29 @@ button {
 .form __input {
   width: 100%;
   border: none;
+}
+
+.footer {
+  background: #353535;
+  padding: 20px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.footer__logo {
+  font-size: 1.125rem;
+  font-family: "Shrikhand", sans-serif;
+  margin-bottom: 10px;
+}
+.footer__icon {
+  padding-right: 15px;
+  width: 30px;
+}
+.footer__link {
+  font-size: 1rem;
+}
+.footer__link__text {
+  color: #fff;
 }
 
 .city {
@@ -166,6 +172,45 @@ button {
 }
 .function__content__text {
   padding-left: 15px;
+}
+
+#list-restaurants {
+  background: #f7f7f7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant {
+  box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border-radius: 20px;
+}
+.restaurant__restaurant__description__title {
+  margin-bottom: 15px;
+}
+.restaurant__img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+.restaurant__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.restaurant__icone {
+  align-items: center;
+  display: flex;
+}
+
+i.fa-regular.fa-heart:hover {
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
