@@ -1,6 +1,4 @@
 .container {
-    margin: $layout-margin;
     background: $colour-container;
-    @include border($colour-accent);
 }
 

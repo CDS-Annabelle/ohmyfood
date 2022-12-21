@@ -29,6 +29,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 textarea {
@@ -40,21 +41,6 @@ textarea {
 button {
   border-radius: 25px;
   padding: 10px;
-}
-
-.btn {
-  border: 0.1rem solid #9356DC;
-  color: #9356DC;
-  background: #FF79DA;
-  cursor: pointer;
-}
-.btn:hover {
-  background: #9356DC;
-  color: #99E2D0;
-}
-.btn--full-width {
-  width: 100%;
-  margin: 0 auto;
 }
 
 .header {
@@ -98,9 +84,7 @@ button {
 }
 
 .container {
-  margin: 6rem;
   background: #f7f7f7;
-  border: 0.1rem solid #99E2D0;
 }
 
 .form {
@@ -127,19 +111,61 @@ button {
 .explore {
   background: #f7f7f7;
   text-align: center;
-  padding: 20px;
+  padding: 40px 20px;
+}
+.explore a {
+  color: #fff;
 }
 .explore__text {
   color: #353535;
   padding-top: 15px;
+  margin-bottom: 25px;
 }
 .explore__btn {
   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-  margin-top: 15px;
+  border-radius: 25px;
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-.explore a {
-  color: #fff;
+.function {
+  padding: 20px;
+}
+.function__title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.function__content {
+  background: #f7f7f7;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 15px;
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+.function__content:hover {
+  background: #F5EDFF;
+}
+.function__content__step {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  left: -14px;
+  width: 24px;
+  height: 24px;
+}
+.function__content__text {
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

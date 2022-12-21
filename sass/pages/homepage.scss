@@ -14,17 +14,62 @@
 .explore {
     background: $colour-container;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
+    a{
+        color: #fff;
+    }
     &__text {
         color: #353535;
         padding-top: 15px;
+        margin-bottom: 25px;
     }
     &__btn {
         background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-        margin-top: 15px;
+        border-radius: 25px;
+        padding: 10px;
+        width: 70%;
+        margin: auto;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     }
 }
 
-.explore a{
-    color: #fff;
+
+.function{
+    padding: 20px;
+    &__title{
+        font-size:1.5rem;
+        margin-bottom: 15px;
+    }
+    &__content{
+        background: #f7f7f7;
+        box-shadow: 0px 4px 15px rgb(0 0 0 / 15%);
+        border-radius: 20px;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 15px;
+        display: flex;
+        height: 70px;
+        align-items: center;
+        &:hover{
+            background: #F5EDFF;
+        }
+        &__step{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #9356DC;
+            border-radius: 50%;
+            color: white;
+            font-size: 12px;
+            left: -14px;
+            width: 24px;
+            height: 24px;
+        }
+        &__text{
+            padding-left: 15px;
+        }
+    }
+
 }
+
