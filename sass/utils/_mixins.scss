@@ -1,12 +1,9 @@
-
-
 @mixin btn {
     color: $colour-primary;
     background: $colour-secondary;
     cursor: pointer;
     &:hover{
-        background: $colour-primary;
-        color: $colour-accent;
+        background: $colour-primary
     }
     &--full-width {
         width: 100%;
