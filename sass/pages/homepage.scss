@@ -103,16 +103,21 @@
     }
 }
 
-i.fa-regular.fa-heart{
-
+.restaurant__icone{
+    .fa-solid.fa-heart{
+        display: none;
+    }
     &:hover{
-    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-   -webkit-text-fill-color:transparent;
+        .fa-regular.fa-heart{
+            display: none;
+        }
+        .fa-solid.fa-heart {
+            display: block;
+            background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color:transparent;
+        }
     }
 }
-
-
-
