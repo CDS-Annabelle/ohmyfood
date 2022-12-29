@@ -64,21 +64,12 @@ button {
   text-align: center;
 }
 
-
 ul {
   list-style-type: none;
 }
 
 .container {
   background: #f7f7f7;
-}
-
-.form {
-  width: 100%;
-}
-.form __input {
-  width: 100%;
-  border: none;
 }
 
 .footer {
