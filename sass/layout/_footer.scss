@@ -4,6 +4,23 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    @media screen and (min-width: $desktop){
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footer__logo{
+            display: flex;
+            flex-direction: row-reverse;
+            order: 1;
+        }
+        li{
+            margin-right: 40px;
+        }
+    }
     &__logo{
         font-size: 1.125rem;
         font-family: 'Shrikhand', sans-serif;
