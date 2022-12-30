@@ -15,10 +15,22 @@ h2 {
     font-size: 1.5rem;
 }
 
+h2.menu-title{
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: 400;
+    font-size: 1.875rem;
+    font-style: italic;
+}
+
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+}
+
+h3.toptext{
+    text-transform: uppercase;
+    padding-top: 25px;
 }
 
 a{
