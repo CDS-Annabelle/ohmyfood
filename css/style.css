@@ -175,7 +175,7 @@ ul {
   line-height: 1.5em;
 }
 
-.btn__order button {
+.order__btn {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   border-radius: 25px;
   padding: 10px 5px;
