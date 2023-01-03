@@ -309,10 +309,27 @@ ul {
     width: 20%;
   }
   #list-restaurants .btn__card {
-    position: absolute;
-    padding-top: 5px;
-    right: unset;
+    position: relative;
+    padding-top: 0;
+    right: 10px;
+    top: 10px;
   }
+  #list-restaurants .btn__card__new {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.btn__card {
+  position: absolute;
+  right: 2rem;
+  padding-top: 1rem;
+}
+.btn__card__new {
+  color: #008766;
+  background: #99E2D0;
+  border-radius: 2px;
+  padding: 5px 10px;
 }
 
 .restaurant {
@@ -353,18 +370,6 @@ ul {
   -moz-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.btn__card {
-  position: absolute;
-  right: 2rem;
-  padding-top: 1rem;
-}
-.btn__card__new {
-  color: #008766;
-  background: #99E2D0;
-  border-radius: 2px;
-  padding: 5px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
