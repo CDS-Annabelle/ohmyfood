@@ -13,24 +13,26 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
-}
-
-h2.menu-title{
-    font-family: 'Shrikhand', sans-serif;
-    font-weight: 400;
-    font-size: 1.875rem;
-    font-style: italic;
+    &.__menu-title{
+        font-family: 'Shrikhand', sans-serif;
+        font-weight: 400;
+        font-size: 1.75rem;
+        font-style: italic;
+        @media screen and (min-width: $desktop){
+            margin-right : 25px;
+        }
+    }
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-}
-
-h3.toptext{
+    &.__toptext {
     text-transform: uppercase;
     padding-top: 25px;
+    font-weight: 300;
+    }
 }
 
 a{
