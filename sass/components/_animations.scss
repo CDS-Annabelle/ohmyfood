@@ -1,0 +1,126 @@
+//heart
+.restaurant__icone{
+  transition: transform 1000ms ease-in-out;
+  transition-duration: 1s;
+  &__heart{
+    transform: scale(0.7);
+  }
+}
+
+.fill {
+  color: black;
+  cursor: pointer;
+  transition-duration: 1s;
+  &:hover {
+    animation: fill 0.3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bold;
+    transition: transform 1000ms ease-in-out;
+  }
+}
+
+.fa-heart::before {
+  transition-duration: 2s;
+}
+
+
+//card menu
+.description {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 1000ms ease-in-out;
+    transition-duration: .5s;
+    box-shadow: 0px 4.01149px 15.0431px rgb(0 0 0 / 10%);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 2s;
+    &:hover {
+      padding-right: 75px;
+    }
+    &:hover .check {
+      opacity: 1;
+      transform: translate(-50px);
+    }
+    &:hover .fa-solid.fa-circle-check{
+      transform: rotate(360deg) ;
+    }
+  }
+
+  .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2D0;
+    width: 59px;
+    height: 69px;
+    position: absolute;
+    padding: 20px;
+    right: -50px;
+    top: 0;
+    opacity: 0;
+    transition-duration: 1s;
+    & .fa-solid.fa-circle-check {
+      color: #fff;
+      transition: transform 600ms ease-in-out;
+    }
+  }
+
+
+//card menu
+#card1{
+  animation-delay: 0.5s;
+}
+
+#card2{
+  animation-delay: 0.9s;
+}
+  
+
+#card3{
+  animation-delay: 1.3s;
+}
+  
+
+#card4{
+  animation-delay: 1.7s;
+}
+  
+
+#card5{
+  animation-delay: 2s;
+}
+  
+
+#card6{
+  animation-delay: 2.3s;
+}
+  
+
+#card7{
+  animation-delay: 2.6s;
+}
+  
+
+#card8{
+  animation-delay: 2.9s;
+}
+  
+
+#card9{
+  animation-delay: 3.2s;
+}
+  
+  
