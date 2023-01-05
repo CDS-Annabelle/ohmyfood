@@ -30,6 +30,16 @@
     opacity: 1;
   }
 }
+@keyframes loader {
+  0%, 90% {
+    height: 100vh;
+    opacity: 1;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+  }
+}
 *,
 *::after,
 *::before {
@@ -150,8 +160,8 @@ button {
   animation: fill 0.3s ease-in-out;
   display: inline-block;
   opacity: 1;
-  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-  background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background: linear-gradient(to top, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
+  background: -webkit-linear-gradient(to top, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -272,6 +282,37 @@ button {
 
 #card10n {
   animation-delay: 2.7s;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background: linear-gradient(to bottom, #ffd0f2, #f396ea, #e580f0, #b35cdc, #9356dc);
+  animation: loader 3s linear forwards;
+}
+.loader__content {
+  width: 250px;
+  height: 250px;
+  background: #000;
+  padding: 15px;
+  position: relative;
+  border-radius: 50%;
+  border: 4px dotted #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader__content__text {
+  color: #fff;
+  font-family: "Shrikhand";
+  font-size: 2rem;
 }
 
 .header {
