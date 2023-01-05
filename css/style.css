@@ -106,6 +106,7 @@ button {
   border-radius: 25px;
   padding: 15px 50px;
   color: #fff;
+  text-align: center;
   font-weight: 400;
   box-shadow: 2px 4px 20px #bfbfbf;
   margin: 0 0 40px 0;
@@ -243,6 +244,34 @@ button {
 
 #card9 {
   animation-delay: 2.5s;
+}
+
+#card4n {
+  animation-delay: 1.5s;
+}
+
+#card5n {
+  animation-delay: 1.7s;
+}
+
+#card6n {
+  animation-delay: 1.9s;
+}
+
+#card7n {
+  animation-delay: 2.1s;
+}
+
+#card8n {
+  animation-delay: 2.3s;
+}
+
+#card9n {
+  animation-delay: 2.5s;
+}
+
+#card10n {
+  animation-delay: 2.7s;
 }
 
 .header {
