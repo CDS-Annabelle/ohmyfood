@@ -1,0 +1,171 @@
+//heart
+.restaurant__icone{
+  transition: transform 1000ms ease-in-out;
+  transition-duration: 1s;
+  &__heart{
+    transform: scale(0.7);
+  }
+}
+
+.fill {
+  color: black;
+  cursor: pointer;
+  transition-duration: 1s;
+  &:hover{
+    animation: fill 0.3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background:linear-gradient(to top, #ff79da,#e86edb,#cf64dc, #b35cdc,#9356dc);
+    background:-webkit-linear-gradient(to top, #ff79da,#e86edb,#cf64dc, #b35cdc,#9356dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bold;
+    transition: transform 1000ms ease-in-out;
+  }
+}
+
+.fa-heart::before {
+  transition-duration: 2s;
+}
+
+
+//card menu
+.description {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 1000ms ease-in-out;
+    transition-duration: .5s;
+    box-shadow: 0px 4.01149px 15.0431px rgb(0 0 0 / 10%);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 2s;
+    &:hover {
+      padding-right: 75px;
+    }
+    &:hover .check {
+      opacity: 1;
+      transform: translate(-50px);
+    }
+    &:hover .fa-solid.fa-circle-check{
+      transform: rotate(360deg) ;
+    }
+  }
+
+  .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2D0;
+    width: 59px;
+    height: 69px;
+    position: absolute;
+    padding: 20px;
+    right: -50px;
+    top: 0;
+    opacity: 0;
+    transition-duration: 1s;
+    & .fa-solid.fa-circle-check {
+      color: #fff;
+      transition: transform 600ms ease-in-out;
+    }
+  }
+
+//card menu delay
+#card1{
+  animation-delay: 0.5s;
+}
+#card2{
+  animation-delay: 0.9s;
+}
+#card3{
+  animation-delay: 1.3s;
+}
+#card4{
+  animation-delay: 1.5s;
+}
+#card5{
+  animation-delay: 1.7s;
+}
+#card6{
+  animation-delay: 1.9s;
+}
+#card7{
+  animation-delay: 2.1s;
+}
+#card8{
+  animation-delay: 2.3s;
+}
+#card9{
+  animation-delay: 2.5s;
+}
+
+// card menu la note enchantée
+#card4n{
+  animation-delay: 1.5s;
+}
+#card5n{
+  animation-delay: 1.7s;
+}
+#card6n{
+  animation-delay: 1.9s;
+}
+#card7n{
+  animation-delay: 2.1s;
+}
+#card8n{
+  animation-delay: 2.3s;
+}
+#card9n{
+  animation-delay: 2.5s;
+}
+#card10n{
+  animation-delay: 2.7s;
+}
+  
+
+// loader
+.loader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background:linear-gradient(to bottom, #ffd0f2,#f396ea,#e580f0, #b35cdc,#9356dc);
+  animation: loader 3s linear forwards; 
+  &__content{
+      width: 300px;
+      height: 200px;
+      background: #000;
+      padding: 15px;
+      position: relative;
+      border-radius: 50%;
+      border:4px dotted #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      line-height: 1.2;
+      &__text{
+        color: #fff;
+        font-family: 'Shrikhand';
+        font-size: 2rem;
+      }
+      &__icon{
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 400;
+      }
+    }
+  }
