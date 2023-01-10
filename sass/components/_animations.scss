@@ -23,6 +23,10 @@
 }
 */
 
+.fa-heart{
+  font-size: 1.2rem;
+}
+
 .restaurant__icone{
   .fa-solid.fa-heart{
       display: none;
@@ -34,14 +38,15 @@
       .fa-solid.fa-heart {
           opacity:0;
           display: block;
-          transition: all 2s;
+          transition: all 3s;
           &:hover{
-          background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+          opacity:1;
+          background: linear-gradient(#9356DC, #FF79DA);
           -webkit-background-clip: text;
           -moz-background-clip: text;
           background-clip: text;
           -webkit-text-fill-color:transparent;
-          opacity:1;
+          cursor:pointer;
           }
       }
   }
