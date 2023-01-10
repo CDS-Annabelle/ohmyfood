@@ -143,33 +143,46 @@ button {
   font-size: 1.2rem;
 }
 
-.restaurant__icone {
-  transition: transform 1000ms ease-in-out;
-  transition-duration: 1s;
-}
-.restaurant__icone__heart {
-  transform: scale(0.7);
-}
-
+/*
 .fill {
   color: black;
   cursor: pointer;
   transition-duration: 1s;
-}
-.fill:hover {
-  animation: fill 0.3s ease-in-out;
-  display: inline-block;
-  opacity: 1;
-  background: linear-gradient(to top, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-  background: -webkit-linear-gradient(to top, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  transition: transform 1000ms ease-in-out;
+  &:hover {
+    animation: fill 0.3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bold;
+    transition: transform 1000ms ease-in-out;
+  }
 }
 
 .fa-heart::before {
   transition-duration: 2s;
+}
+*/
+.restaurant__icone .fa-solid.fa-heart {
+  display: none;
+}
+.restaurant__icone:hover .fa-regular.fa-heart {
+  display: none;
+}
+.restaurant__icone:hover .fa-solid.fa-heart {
+  opacity: 0;
+  display: block;
+  transition: all 2s;
+}
+.restaurant__icone:hover .fa-solid.fa-heart:hover {
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
 }
 
 .description {
@@ -254,72 +267,6 @@ button {
 
 #card9 {
   animation-delay: 2.5s;
-}
-
-#card4n {
-  animation-delay: 1.5s;
-}
-
-#card5n {
-  animation-delay: 1.7s;
-}
-
-#card6n {
-  animation-delay: 1.9s;
-}
-
-#card7n {
-  animation-delay: 2.1s;
-}
-
-#card8n {
-  animation-delay: 2.3s;
-}
-
-#card9n {
-  animation-delay: 2.5s;
-}
-
-#card10n {
-  animation-delay: 2.7s;
-}
-
-.loader {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  background: linear-gradient(to bottom, #ffd0f2, #f396ea, #e580f0, #b35cdc, #9356dc);
-  animation: loader 3s linear forwards;
-}
-.loader__content {
-  width: 300px;
-  height: 200px;
-  background: #000;
-  padding: 15px;
-  position: relative;
-  border-radius: 50%;
-  border: 4px dotted #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  line-height: 1.2;
-}
-.loader__content__text {
-  color: #fff;
-  font-family: "Shrikhand";
-  font-size: 2rem;
-}
-.loader__content__icon {
-  color: #fff;
-  font-size: 3.5rem;
-  font-weight: 400;
 }
 
 .header {
@@ -492,7 +439,6 @@ ul {
 }
 .explore__btn {
   margin: auto;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 25px;
   padding: 10px;
