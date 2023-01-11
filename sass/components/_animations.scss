@@ -44,8 +44,7 @@ label[for=like-menu]:hover .fa {
     margin: 25px 0;
     padding: 10px;
     cursor: pointer;
-    transition: transform 1000ms ease-in-out;
-    transition-duration: .5s;
+    transition-duration: 1s;
     box-shadow: 0px 4.01149px 15.0431px rgb(0 0 0 / 10%);
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -55,7 +54,7 @@ label[for=like-menu]:hover .fa {
     -o-animation: fadein 2s; /* Opera */
     animation: fadein 2s;
     &:hover {
-      padding-right: 75px;
+      padding-right: 55px;
     }
     &:hover .check {
       opacity: 1;
@@ -85,49 +84,52 @@ label[for=like-menu]:hover .fa {
     }
   }
 
+ 
+  
+
 
 //card menu
 #card1{
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
 }
 
 #card2{
-  animation-delay: 0.9s;
-}
-  
-
-#card3{
-  animation-delay: 1.3s;
-}
-  
-
-#card4{
-  animation-delay: 1.5s;
-}
-  
-
-#card5{
-  animation-delay: 1.7s;
-}
-  
-
-#card6{
   animation-delay: 1.9s;
 }
   
 
-#card7{
-  animation-delay: 2.1s;
-}
-  
-
-#card8{
+#card3{
   animation-delay: 2.3s;
 }
   
 
-#card9{
+#card4{
   animation-delay: 2.5s;
+}
+  
+
+#card5{
+  animation-delay: 2.7s;
+}
+  
+
+#card6{
+  animation-delay: 2.9s;
+}
+  
+
+#card7{
+  animation-delay: 3.1s;
+}
+  
+
+#card8{
+  animation-delay: 3.3s;
+}
+  
+
+#card9{
+  animation-delay: 3.5s;
 }
   
   
