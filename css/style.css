@@ -258,6 +258,34 @@ label[for=like-menu]:hover .fa {
   animation-delay: 3.5s;
 }
 
+#card4n {
+  animation-delay: 2.5s;
+}
+
+#card5n {
+  animation-delay: 2.7s;
+}
+
+#card6n {
+  animation-delay: 2.9s;
+}
+
+#card7n {
+  animation-delay: 3.1s;
+}
+
+#card8n {
+  animation-delay: 3.3s;
+}
+
+#card9n {
+  animation-delay: 3.5s;
+}
+
+#card10n {
+  animation-delay: 3.7s;
+}
+
 .loader {
   position: fixed;
   top: 0;
@@ -431,7 +459,7 @@ ul {
   transition: all 1s;
 }
 .subtext:hover {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .subtext__top {
   white-space: nowrap;
