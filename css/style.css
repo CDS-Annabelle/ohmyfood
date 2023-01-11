@@ -118,29 +118,25 @@ button {
   color: #fff;
   text-align: center;
   font-weight: 400;
-  box-shadow: 2px 4px 20px #bfbfbf;
   margin: 0 0 40px 0;
-  border: none;
   cursor: pointer;
-  width: 200px;
-  -webkit-transition: width 2s ease, background-color 5s ease;
-  -moz-transition: width 2s ease, background-color 5s ease;
-  -o-transition: width 2s ease, background-color 5s ease;
-  transition: width 2s ease, background-color 5s ease;
+  box-shadow: 2px 4px 10px #bfbfbf;
+  transition: all 2s;
+}
+.order__btn a {
+  color: #fff;
+  font-size: 1.2rem;
 }
 .order__btn:hover {
-  width: 260px;
   background: linear-gradient(#fc85da, #a16fdf);
   box-shadow: 2px 4px 20px #777777;
 }
 @media screen and (min-width: 1024px) {
   .order__btn {
     margin: -10px 0 50px 0;
+    width: 22%;
+    margin: 0 auto 20px;
   }
-}
-.order__btn a {
-  color: #fff;
-  font-size: 1.2rem;
 }
 
 form.like {
@@ -299,6 +295,7 @@ ul {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  margin-top: 40px;
 }
 @media screen and (min-width: 1024px) {
   .footer {
@@ -417,12 +414,10 @@ ul {
 .explore {
   background: #f7f7f7;
   text-align: center;
-  padding: 40px 20px;
-}
-@media screen and (min-width: 1024px) {
-  .explore .explore__btn {
-    width: 15%;
-  }
+  padding: 40px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .explore a {
   color: #fff;
@@ -433,29 +428,71 @@ ul {
   margin-bottom: 25px;
 }
 .explore__btn {
-  margin: auto;
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 25px;
-  padding: 10px;
+  padding: 15px 50px;
   color: #fff;
+  text-align: center;
   font-weight: 400;
-  box-shadow: 2px 4px 20px #bfbfbf;
-  border: none;
+  margin: 0 0 40px 0;
   cursor: pointer;
-  width: 70%;
-  -webkit-transition: width 3s ease, background-color 3s ease;
-  -moz-transition: width 3s ease, background-color 3s ease;
-  -o-transition: width 3s ease, background-color 3s ease;
-  transition: width 3s ease, background-color 3s ease;
+  box-shadow: 2px 4px 10px #bfbfbf;
+  transition: all 2s;
+}
+.explore__btn a {
+  color: #fff;
+  font-size: 1.2rem;
 }
 .explore__btn:hover {
-  width: 350px;
   background: linear-gradient(#fc85da, #a16fdf);
   box-shadow: 2px 4px 20px #777777;
+}
+@media screen and (min-width: 1024px) {
+  .explore__btn {
+    margin: -10px 0 50px 0;
+    width: 22%;
+    margin: 0 auto 20px;
+  }
 }
 
 .function {
   padding: 20px;
+}
+.function__title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.function__content {
+  background: #f7f7f7;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 15px;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  transition: all 2s;
+}
+.function__content:hover {
+  background: #F5EDFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.function__content__step {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  left: -14px;
+  width: 24px;
+  height: 24px;
+}
+.function__content__text {
+  padding-left: 15px;
 }
 @media screen and (min-width: 1024px) {
   .function {
@@ -474,40 +511,6 @@ ul {
   .function .function__content {
     width: 30%;
   }
-}
-.function__title {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-.function__content {
-  background: #f7f7f7;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 20px;
-  margin: auto;
-  width: 90%;
-  margin-bottom: 15px;
-  display: flex;
-  height: 70px;
-  align-items: center;
-}
-.function__content:hover {
-  background: #F5EDFF;
-}
-.function__content__step {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #9356DC;
-  border-radius: 50%;
-  color: white;
-  font-size: 12px;
-  left: -14px;
-  width: 24px;
-  height: 24px;
-}
-.function__content__text {
-  padding-left: 15px;
 }
 
 #list-restaurants {
@@ -558,6 +561,10 @@ ul {
   box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.1);
   margin: 20px 0;
   border-radius: 20px;
+  transition: all 2s;
+}
+.restaurant:hover {
+  box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.4);
 }
 .restaurant__restaurant__description__title {
   margin-bottom: 15px;

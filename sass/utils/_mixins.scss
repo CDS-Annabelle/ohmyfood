@@ -1,13 +1,25 @@
 @mixin btn {
-    color: $colour-primary;
-    background: $colour-secondary;
+    background: linear-gradient(#FF79DA,#9356DC);
+    border-radius: 25px;
+    padding: 15px 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 0 40px 0;
     cursor: pointer;
-    &:hover{
-        background: $colour-primary
+    box-shadow: 2px 4px 10px #bfbfbf;
+    transition:all 2s;
+    a{
+        color: #fff;
+        font-size: 1.2rem;
     }
-    &--full-width {
-        width: 100%;
-        margin: 0 auto;
+    &:hover{
+        background: linear-gradient(#fc85da,#a16fdf);
+        box-shadow: 2px 4px 20px #777777;
+    }
+    @media screen and (min-width: $desktop){
+        margin: -10px 0 50px 0;
+        width: 22%;
+        margin: 0 auto 20px;
     }
 }
-

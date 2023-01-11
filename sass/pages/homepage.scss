@@ -14,12 +14,10 @@
 .explore {
     background: $colour-container;
     text-align: center;
-    padding: 40px 20px;
-    @media screen and (min-width: $desktop){
-        .explore__btn {
-            width: 15%;
-          }
-    }
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     a{
         color: #fff;
     }
@@ -28,55 +26,21 @@
         padding-top: 15px;
         margin-bottom: 25px;
     }
-    &__btn {
-        margin: auto;
-        background: linear-gradient(#FF79DA,#9356DC);
-        border-radius: 25px;
-        padding: 10px;
-        color: #fff;
-        font-weight: 400;
-        box-shadow: 2px 4px 20px #bfbfbf;
-        border: none;
-        cursor: pointer;
-        width: 70%;
-        -webkit-transition: width 3s ease, background-color 3s ease;
-        -moz-transition: width 3s ease, background-color 3s ease;
-        -o-transition: width 3s ease, background-color 3s ease;
-        transition: width 3s ease, background-color 3s ease;
-    }
-    &__btn:hover {
-        width: 350px;
-        background: linear-gradient(#fc85da,#a16fdf);
-        box-shadow: 2px 4px 20px #777777;
+    &__btn{
+        @include btn
     }
 }
 
 
 .function{
     padding: 20px;
-    @media screen and (min-width: $desktop){
-        padding: 70px 10px;
-        h2.function__title{
-            width: 100%;
-        }
-        .box{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-            width: 90%;
-            margin: auto;
-        }
-        .function__content{
-            width: 30%;
-        }
-    }
     &__title{
         font-size:1.5rem;
         margin-bottom: 15px;
     }
     &__content{
         background: #f7f7f7;
-        box-shadow: 0px 4px 15px rgb(0 0 0 / 15%);
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 10%);
         border-radius: 20px;
         margin: auto;
         width: 90%;
@@ -84,8 +48,10 @@
         display: flex;
         height: 70px;
         align-items: center;
+        transition:all 2s;
         &:hover{
             background: #F5EDFF;
+            box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
         }
         &__step{
             position: relative;
@@ -102,6 +68,22 @@
         }
         &__text{
             padding-left: 15px;
+        }
+    }
+    @media screen and (min-width: $desktop){
+        padding: 70px 10px;
+        h2.function__title{
+            width: 100%;
+        }
+        .box{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+        }
+        .function__content{
+            width: 30%;
         }
     }
 }
@@ -154,6 +136,11 @@
     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     border-radius: 20px;
+    transition: all 2s;
+    &:hover{
+        box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.4);
+    }
+
     &__restaurant__description__title{
         margin-bottom: 15px;
     }
