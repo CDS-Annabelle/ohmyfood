@@ -121,7 +121,7 @@ button {
   margin: 0 0 40px 0;
   cursor: pointer;
   box-shadow: 2px 4px 10px #bfbfbf;
-  transition: all 2s;
+  transition: all 1s;
 }
 .order__btn a {
   color: #fff;
@@ -133,8 +133,7 @@ button {
 }
 @media screen and (min-width: 1024px) {
   .order__btn {
-    margin: -10px 0 50px 0;
-    width: 22%;
+    width: 17%;
     margin: 0 auto 20px;
   }
 }
@@ -443,7 +442,7 @@ ul {
   margin: 0 0 40px 0;
   cursor: pointer;
   box-shadow: 2px 4px 10px #bfbfbf;
-  transition: all 2s;
+  transition: all 1s;
 }
 .explore__btn a {
   color: #fff;
@@ -455,8 +454,7 @@ ul {
 }
 @media screen and (min-width: 1024px) {
   .explore__btn {
-    margin: -10px 0 50px 0;
-    width: 22%;
+    width: 17%;
     margin: 0 auto 20px;
   }
 }
@@ -478,11 +476,11 @@ ul {
   display: flex;
   height: 70px;
   align-items: center;
-  transition: all 2s;
+  transition: all 1s;
 }
 .function__content:hover {
   background: #F5EDFF;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 .function__content__step {
   position: relative;
@@ -567,7 +565,7 @@ ul {
   box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.1);
   margin: 20px 0;
   border-radius: 20px;
-  transition: all 2s;
+  transition: all 1s;
 }
 .restaurant:hover {
   box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.4);

@@ -8,7 +8,7 @@
     margin: 0 0 40px 0;
     cursor: pointer;
     box-shadow: 2px 4px 10px #bfbfbf;
-    transition:all 2s;
+    transition:all 1s;
     a{
         color: #fff;
         font-size: 1.2rem;
@@ -18,8 +18,7 @@
         box-shadow: 2px 4px 20px #777777;
     }
     @media screen and (min-width: $desktop){
-        margin: -10px 0 50px 0;
-        width: 22%;
+        width: 17%;
         margin: 0 auto 20px;
     }
 }
