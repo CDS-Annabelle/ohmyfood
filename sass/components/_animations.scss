@@ -132,4 +132,42 @@ label[for=like-menu]:hover .fa {
   animation-delay: 3.5s;
 }
   
-  
+// loader
+.loader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background:linear-gradient(to bottom, #ffd0f2,#f396ea,#e580f0, #b35cdc,#9356dc);
+  animation: loader 3s linear forwards; 
+  &__content{
+      width: 300px;
+      height: 200px;
+      background: #000;
+      padding: 15px;
+      position: relative;
+      border-radius: 50%;
+      border:4px dotted #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      line-height: 1.2;
+      &__text{
+        color: #fff;
+        font-family: 'Shrikhand';
+        font-size: 2rem;
+      }
+      &__icon{
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 400;
+      }
+    }
+  }
+
