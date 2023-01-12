@@ -141,7 +141,6 @@ button {
 }
 @media screen and (min-width: 1024px) {
   .order__btn {
-    width: 17%;
     margin: 0 auto 20px;
   }
 }
@@ -563,7 +562,6 @@ ul {
 }
 @media screen and (min-width: 1024px) {
   .explore__btn {
-    width: 17%;
     margin: 0 auto 20px;
   }
 }
