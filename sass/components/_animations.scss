@@ -48,12 +48,13 @@ label[for=like-menu]:hover .fa {
     box-shadow: 0px 4.01149px 15.0431px rgb(0 0 0 / 10%);
     white-space: nowrap;
     text-overflow: ellipsis;
+    opacity:0.2;
     overflow: hidden;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-    -moz-animation: fadeIn ease 5s;
-    -o-animation: fadeIn ease 5s;
-    -ms-animation: fadeIn ease 5s;
+    animation: fadeIn ease 5s forwards;
+    -webkit-animation: fadeIn ease 5s forwards;
+    -moz-animation: fadeIn ease 5s forwards;
+    -o-animation: fadeIn ease 5s forwards;
+    -ms-animation: fadeIn ease 5s forwards;
     &:hover {
       padding-right: 55px;
     }
