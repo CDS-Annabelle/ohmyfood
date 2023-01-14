@@ -5,6 +5,18 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-top: 40px;
+    &__logo{
+        font-size: 1.125rem;
+        font-family: 'Shrikhand', sans-serif;
+        margin-bottom: 10px;
+    }
+    &__icon{
+        padding-right: 15px;
+        width: 30px;
+    }
+    &__link{
+        color: #fff;
+    }
     @media screen and (min-width: $desktop){
         display: flex;
         justify-content: center;
@@ -20,21 +32,6 @@
         }
         li{
             margin-right: 40px;
-        }
-    }
-    &__logo{
-        font-size: 1.125rem;
-        font-family: 'Shrikhand', sans-serif;
-        margin-bottom: 10px;
-    }
-    &__icon{
-        padding-right: 15px;
-        width: 30px;
-    }
-    &__link{
-        font-size: 1rem;
-        &__text{
-            color: #fff;
         }
     }
 }

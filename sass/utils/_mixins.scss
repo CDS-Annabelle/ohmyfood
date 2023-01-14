@@ -1,7 +1,7 @@
 @mixin btn {
     background: linear-gradient(#FF79DA,#9356DC);
     border-radius: 25px;
-    padding: 15px 50px;
+    padding: 15px 25px;
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -11,7 +11,7 @@
     transition:all 1s;
     a{
         color: #fff;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     &:hover{
         background: linear-gradient(#fc85da,#a16fdf);

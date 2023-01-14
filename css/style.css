@@ -123,7 +123,7 @@ button {
 .order__btn {
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 25px;
-  padding: 15px 50px;
+  padding: 15px 25px;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -134,7 +134,7 @@ button {
 }
 .order__btn a {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .order__btn:hover {
   background: linear-gradient(#fc85da, #a16fdf);
@@ -413,6 +413,18 @@ ul {
   font-weight: 500;
   margin-top: 40px;
 }
+.footer__logo {
+  font-size: 1.125rem;
+  font-family: "Shrikhand", sans-serif;
+  margin-bottom: 10px;
+}
+.footer__icon {
+  padding-right: 15px;
+  width: 30px;
+}
+.footer__link {
+  color: #fff;
+}
 @media screen and (min-width: 1024px) {
   .footer {
     display: flex;
@@ -431,21 +443,6 @@ ul {
   .footer li {
     margin-right: 40px;
   }
-}
-.footer__logo {
-  font-size: 1.125rem;
-  font-family: "Shrikhand", sans-serif;
-  margin-bottom: 10px;
-}
-.footer__icon {
-  padding-right: 15px;
-  width: 30px;
-}
-.footer__link {
-  font-size: 1rem;
-}
-.footer__link__text {
-  color: #fff;
 }
 
 .topmenu__img {
@@ -523,7 +520,6 @@ ul {
 
 .city {
   background: #eaeaea;
-  margin: auto;
   height: 50px;
   text-align: center;
   display: flex;
@@ -553,7 +549,7 @@ ul {
 .explore__btn {
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 25px;
-  padding: 15px 50px;
+  padding: 15px 25px;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -564,7 +560,7 @@ ul {
 }
 .explore__btn a {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .explore__btn:hover {
   background: linear-gradient(#fc85da, #a16fdf);
