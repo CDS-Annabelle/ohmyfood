@@ -1,40 +1,27 @@
 // heart
-form.like{
+.restaurant__icon{
   display: flex;
   align-items: center;
 }
 
-#like-menu {
-  display: none;
-}
-
-label[for=like-menu] .fa {
-  font-size: 23px;
+.like {
+  color:#000;
   cursor: pointer;
-}
-
-label[for=like-menu] .fa-heart-o {
-  position: relative;
-  left: 27px;
-}
-
-label[for=like-menu] .fa-heart {
-  color: #fff;
-  background-image: linear-gradient(#DCBFFF, #FF79DA);
+  font-size: 1.5rem;
+  background-image: linear-gradient(#FF79DA,#9356DC);
   -webkit-background-clip: text;
   background-clip: text;
   transition: all 4s;
-  opacity: 0;
-}
-
-label[for=like-menu]:hover .fa {
-  background-image: linear-gradient(#9356DC, #FF79DA);
+  &:hover{
+  background-image: linear-gradient(#FF79DA,#DCBFFF);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-weight: bold;
   opacity: 1;
+  }
 }
+
 
 //card menu
 .description {
@@ -87,9 +74,6 @@ label[for=like-menu]:hover .fa {
   }
 
  
-  
-
-
 //card menu
 #card1{
   animation-delay: 1.5s;
