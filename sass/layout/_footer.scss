@@ -9,6 +9,7 @@
         font-size: 1.125rem;
         font-family: 'Shrikhand', sans-serif;
         margin-bottom: 10px;
+
     }
     &__icon{
         padding-right: 15px;
@@ -24,14 +25,14 @@
         ul{
             display: flex;
             justify-content: space-evenly;
+            > li{
+                margin-right: 40px;
+            }
         }
-        .footer__logo{
+        &__logo{
             display: flex;
             flex-direction: row-reverse;
             order: 1;
-        }
-        li{
-            margin-right: 40px;
         }
     }
 }
