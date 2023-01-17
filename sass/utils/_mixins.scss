@@ -21,3 +21,7 @@
         margin: 0 auto 20px;
     }
 }
+
+@mixin img{
+    object-fit:cover;
+}

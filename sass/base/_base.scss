@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img{
+    object-fit:cover;
+}
+
 @media screen and (min-width: $desktop){
     
 }
