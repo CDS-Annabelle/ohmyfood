@@ -1,15 +1,14 @@
 .topmenu {
     &__img{
-        object-fit: cover;
-        width: 100%;
-        height: 250px;
-        @media screen and (min-width: $desktop){
-            height: 450px;
-        }
+      width: 100%;
+      height: 250px;
+      @media screen and (min-width: $desktop){
+        height: 450px;
+      }
     }
   }
 
-.content__menu {
+.menu {
   position: relative;
   background-color: #f7f7f7;
   border-radius: 25px 25px 0 0;
@@ -22,26 +21,33 @@
         margin: auto;
         top: -60px;
     }
-    &__title{
-        display: flex;
-        justify-content: space-between;
-        @media screen and (min-width: $desktop){
-          display: flex;
-          justify-content: center;
-          margin-bottom: 40px;
-        }
+  &__title{
+    display: flex;
+    justify-content: space-between;
+    & > h2{
+      font-family: 'Shrikhand', sans-serif;
+      font-weight: 400;
     }
+      @media screen and (min-width: $desktop){
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        & > h2{
+          margin-right: 25px;
+        }
+      }
+  }
 }
   
 
   .cardmenu{
-    @media screen and (min-width: $desktop){
+    &__toptext{
+      width: 30%;
+    }
+      @media screen and (min-width: $desktop){
       width: 70%;
       margin: auto;
-    }
-    &__toptext{
-        width: 30%;
-    }
+      }
   }
 
   .toptext__title{

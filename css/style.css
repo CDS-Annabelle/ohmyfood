@@ -369,7 +369,7 @@ a.loader__content__link:after {
 .head-restaurant {
   position: relative;
   background: #fff;
-  height: 10rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -428,7 +428,6 @@ ul {
 }
 
 .topmenu__img {
-  object-fit: cover;
   width: 100%;
   height: 250px;
 }
@@ -438,7 +437,7 @@ ul {
   }
 }
 
-.content__menu {
+.menu {
   position: relative;
   background-color: #f7f7f7;
   border-radius: 25px 25px 0 0;
@@ -447,33 +446,40 @@ ul {
   top: -40px;
 }
 @media screen and (min-width: 1024px) {
-  .content__menu {
+  .menu {
     width: 60%;
     padding: 15px;
     margin: auto;
     top: -60px;
   }
 }
-.content__menu__title {
+.menu__title {
   display: flex;
   justify-content: space-between;
 }
+.menu__title > h2 {
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 400;
+}
 @media screen and (min-width: 1024px) {
-  .content__menu__title {
+  .menu__title {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
   }
+  .menu__title > h2 {
+    margin-right: 25px;
+  }
 }
 
+.cardmenu__toptext {
+  width: 30%;
+}
 @media screen and (min-width: 1024px) {
   .cardmenu {
     width: 70%;
     margin: auto;
   }
-}
-.cardmenu__toptext {
-  width: 30%;
 }
 
 .toptext__title__line {
@@ -560,7 +566,6 @@ ul {
 .function > .box {
   display: flex;
   flex-direction: column;
-  justify-content: unsafe;
   align-items: center;
 }
 .function__title {
