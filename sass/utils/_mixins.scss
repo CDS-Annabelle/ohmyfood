@@ -1,11 +1,11 @@
 @mixin btn {
-    background: linear-gradient(#FF79DA,#9356DC);
+    background: linear-gradient($colour-secondary,$colour-primary);
     border-radius: 25px;
     padding: 15px 25px;
-    color: #fff;
+    color: $colour-white;
     text-align: center;
     font-weight: 400;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     cursor: pointer;
     box-shadow: 2px 4px 10px #bfbfbf;
     transition:all 1s;

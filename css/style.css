@@ -131,7 +131,7 @@ button {
   color: #fff;
   text-align: center;
   font-weight: 400;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
   cursor: pointer;
   box-shadow: 2px 4px 10px #bfbfbf;
   transition: all 1s;
@@ -354,7 +354,7 @@ a.loader__content__link:after {
 .home {
   position: relative;
   background: #fff;
-  height: 10rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -541,7 +541,7 @@ ul {
   color: #fff;
   text-align: center;
   font-weight: 400;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
   cursor: pointer;
   box-shadow: 2px 4px 10px #bfbfbf;
   transition: all 1s;
